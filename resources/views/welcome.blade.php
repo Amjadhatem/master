@@ -8,7 +8,7 @@
     
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <div class="container">
-    <img id="logo" src="{{ asset('assets/img/logo.png') }}" alt="logo">
+    <img id="logo" src="{{ asset('assets/img/logo.png') }}" alt="logo"> 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>      
     </button>
@@ -38,8 +38,8 @@
         </li>
 
       </ul>
-      <a href="./login.html" class="btn btn-outline-brand ms-lg-4">Log in</a>
-      <a href="./signup.html" class="btn btn-outline-brand ms-lg-4">Sign up</a>
+      <a href="/Login" class="btn btn-outline-brand ms-lg-4">Log in</a>
+      <a href="/SignUp" class="btn btn-outline-brand ms-lg-4">Sign up</a>
     </div>
   </div>
 </nav>
@@ -154,7 +154,7 @@
       </div>
       <div class="cta-btns">
         <a href="#booking" class="btn btn-brand me-sm-2">Appointment</a>
-        <a href="./contact us.html" class="btn btn-outline-brand ms-sm-2">Get In Touch</a>
+        <a href="/ContactUs" class="btn btn-outline-brand ms-sm-2">Get In Touch</a>
 
       </div>
     </div>

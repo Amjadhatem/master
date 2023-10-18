@@ -664,4 +664,15 @@ border: 5px solid wheat;
 
 /* ------------ Sign Up ------------ */
 
+/* ------------ log in ------------ */
+
+.Register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------ /log in ------------ */
+
+
 /* ----------------------------------------------  Registration ---------------------------------------------- */
